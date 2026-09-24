@@ -1,0 +1,189 @@
+﻿namespace assignment1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dayOfWeektextbox = new System.Windows.Forms.TextBox();
+            this.monthtextbox = new System.Windows.Forms.TextBox();
+            this.daymonthtextbox = new System.Windows.Forms.TextBox();
+            this.yeartextbox = new System.Windows.Forms.TextBox();
+            this.dayOfWeekprompt = new System.Windows.Forms.Label();
+            this.monthprompt = new System.Windows.Forms.Label();
+            this.dayOfMonth = new System.Windows.Forms.Label();
+            this.year = new System.Windows.Forms.Label();
+            this.dateoutputlabel = new System.Windows.Forms.Label();
+            this.showDateButton = new System.Windows.Forms.Button();
+            this.clearbutton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // dayOfWeektextbox
+            // 
+            this.dayOfWeektextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dayOfWeektextbox.Location = new System.Drawing.Point(435, 43);
+            this.dayOfWeektextbox.Multiline = true;
+            this.dayOfWeektextbox.Name = "dayOfWeektextbox";
+            this.dayOfWeektextbox.Size = new System.Drawing.Size(254, 44);
+            this.dayOfWeektextbox.TabIndex = 0;
+            // 
+            // monthtextbox
+            // 
+            this.monthtextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.monthtextbox.Location = new System.Drawing.Point(435, 104);
+            this.monthtextbox.Multiline = true;
+            this.monthtextbox.Name = "monthtextbox";
+            this.monthtextbox.Size = new System.Drawing.Size(254, 44);
+            this.monthtextbox.TabIndex = 1;
+            // 
+            // daymonthtextbox
+            // 
+            this.daymonthtextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.daymonthtextbox.Location = new System.Drawing.Point(435, 155);
+            this.daymonthtextbox.Multiline = true;
+            this.daymonthtextbox.Name = "daymonthtextbox";
+            this.daymonthtextbox.Size = new System.Drawing.Size(254, 46);
+            this.daymonthtextbox.TabIndex = 2;
+            // 
+            // yeartextbox
+            // 
+            this.yeartextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.yeartextbox.Location = new System.Drawing.Point(437, 224);
+            this.yeartextbox.Multiline = true;
+            this.yeartextbox.Name = "yeartextbox";
+            this.yeartextbox.Size = new System.Drawing.Size(251, 40);
+            this.yeartextbox.TabIndex = 3;
+            // 
+            // dayOfWeekprompt
+            // 
+            this.dayOfWeekprompt.AutoSize = true;
+            this.dayOfWeekprompt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfWeekprompt.Location = new System.Drawing.Point(155, 53);
+            this.dayOfWeekprompt.Name = "dayOfWeekprompt";
+            this.dayOfWeekprompt.Size = new System.Drawing.Size(239, 22);
+            this.dayOfWeekprompt.TabIndex = 4;
+            this.dayOfWeekprompt.Text = "Enter the day of the week";
+            // 
+            // monthprompt
+            // 
+            this.monthprompt.AutoSize = true;
+            this.monthprompt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthprompt.Location = new System.Drawing.Point(131, 114);
+            this.monthprompt.Name = "monthprompt";
+            this.monthprompt.Size = new System.Drawing.Size(263, 22);
+            this.monthprompt.TabIndex = 5;
+            this.monthprompt.Text = "Enter the name of the month";
+            // 
+            // dayOfMonth
+            // 
+            this.dayOfMonth.AutoSize = true;
+            this.dayOfMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfMonth.Location = new System.Drawing.Point(71, 168);
+            this.dayOfMonth.Name = "dayOfMonth";
+            this.dayOfMonth.Size = new System.Drawing.Size(323, 22);
+            this.dayOfMonth.TabIndex = 6;
+            this.dayOfMonth.Text = "Enter the numeric day of the month";
+            // 
+            // year
+            // 
+            this.year.AutoSize = true;
+            this.year.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.year.Location = new System.Drawing.Point(257, 225);
+            this.year.Name = "year";
+            this.year.Size = new System.Drawing.Size(137, 22);
+            this.year.TabIndex = 7;
+            this.year.Text = "Enter the year";
+            // 
+            // dateoutputlabel
+            // 
+            this.dateoutputlabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateoutputlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateoutputlabel.Location = new System.Drawing.Point(155, 306);
+            this.dateoutputlabel.Name = "dateoutputlabel";
+            this.dateoutputlabel.Size = new System.Drawing.Size(533, 56);
+            this.dateoutputlabel.TabIndex = 8;
+            // 
+            // showDateButton
+            // 
+            this.showDateButton.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.showDateButton.Location = new System.Drawing.Point(169, 374);
+            this.showDateButton.Name = "showDateButton";
+            this.showDateButton.Size = new System.Drawing.Size(123, 45);
+            this.showDateButton.TabIndex = 9;
+            this.showDateButton.Text = "showdate";
+            this.showDateButton.UseVisualStyleBackColor = false;
+            this.showDateButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // clearbutton
+            // 
+            this.clearbutton.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.clearbutton.Location = new System.Drawing.Point(321, 374);
+            this.clearbutton.Name = "clearbutton";
+            this.clearbutton.Size = new System.Drawing.Size(73, 45);
+            this.clearbutton.TabIndex = 10;
+            this.clearbutton.Text = "clear";
+            this.clearbutton.UseVisualStyleBackColor = false;
+            this.clearbutton.Click += new System.EventHandler(this.clearbutton_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.clearbutton);
+            this.Controls.Add(this.showDateButton);
+            this.Controls.Add(this.dateoutputlabel);
+            this.Controls.Add(this.year);
+            this.Controls.Add(this.dayOfMonth);
+            this.Controls.Add(this.monthprompt);
+            this.Controls.Add(this.dayOfWeekprompt);
+            this.Controls.Add(this.yeartextbox);
+            this.Controls.Add(this.daymonthtextbox);
+            this.Controls.Add(this.monthtextbox);
+            this.Controls.Add(this.dayOfWeektextbox);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox dayOfWeektextbox;
+        private System.Windows.Forms.TextBox monthtextbox;
+        private System.Windows.Forms.TextBox daymonthtextbox;
+        private System.Windows.Forms.TextBox yeartextbox;
+        private System.Windows.Forms.Label dayOfWeekprompt;
+        private System.Windows.Forms.Label monthprompt;
+        private System.Windows.Forms.Label dayOfMonth;
+        private System.Windows.Forms.Label year;
+        private System.Windows.Forms.Label dateoutputlabel;
+        private System.Windows.Forms.Button showDateButton;
+        private System.Windows.Forms.Button clearbutton;
+    }
+}
+
