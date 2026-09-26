@@ -1,4 +1,10 @@
 #CHAPTER ONE
+
+
+
+
+
+
 #OBJECTIVES
 Topics
 1.1 Objects
@@ -16,6 +22,8 @@ Topics
 2.10 Dealing with Syntax Errors
 
 
+
+
 #OBJECT
 An object is a program component that contains data and performs operations, Programs use objects to perform specific tasks.
 Most programming languages use object-oriented programming in which a program component is called an “object”
@@ -24,7 +32,7 @@ Program objects have properties (or fields) and methods
 -Properties – data stored in an object
 -Methods – the operations an object can perform.
 
-![Image 1](image.png)
+![Image1](image1.png)
 
 #Controls
 Objects that are visible in a program G U I are known as controls
