@@ -1,0 +1,10 @@
+C:\Users\HP\Downloads\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\HP\Downloads\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\HP\Downloads\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.Form1.resources
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\HP\Downloads\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
