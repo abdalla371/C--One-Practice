@@ -34,23 +34,29 @@ namespace Assignment3
                 //creating values for food and prices
                 string food1, food2;
                 double price1, price2;
-
+                
+                 //getting values from textboxes
                 food1 = txtboxfood1.Text;
                 food2 = txtboxfood2.Text;
                 price1 = double.Parse(txtboxprice1.Text);
                 price2 = double.Parse(txtboxprice2.Text);
-
+                
+                //calculating the sum of prices
                 double sum = price1 + price2;
+                
+                //calculating sales tax and tips
                 double salesText = sum * 0.07;
                 double tips = sum * 0.15;
-
+                
+                //calculating total
                 double total = (sum + salesText) - tips;
-
+                
+                 //displaying the results in labels
                 lblsalestext.Text = salesText.ToString("C");
                 lblTips.Text = tips.ToString("C");
                 lbltotal.Text = total.ToString("C");
             }
-            catch (FormatException)
+            catch 
             {
                 MessageBox.Show("Please enter valid numeric values for prices.");
 
