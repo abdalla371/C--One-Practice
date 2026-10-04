@@ -41,17 +41,20 @@ namespace Assignment3
                 price2 = double.Parse(txtboxprice2.Text);
                 //calculating the sum of prices, sales tax, tips, and total
                 double sum = price1 + price2;
+
                 //calculating sales tax and tips
                 double salesText = sum * 0.07;
                 double tips = sum * 0.15;
+
                 //calculating total
                 double total = (sum + salesText) - tips;
-                // //displaying the results in labels
+
+                //displaying the results in labels
                 lblsalestext.Text = salesText.ToString("C");
                 lblTips.Text = tips.ToString("C");
                 lbltotal.Text = total.ToString("C");
             }
-            catch (FormatException)
+            catch 
             {
                 MessageBox.Show("Please enter valid numeric values for prices.");
 
