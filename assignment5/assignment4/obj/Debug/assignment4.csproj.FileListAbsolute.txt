@@ -1,0 +1,10 @@
+C:\Users\HP\Downloads\assignment4\assignment4\bin\Debug\assignment4.exe.config
+C:\Users\HP\Downloads\assignment4\assignment4\bin\Debug\assignment4.exe
+C:\Users\HP\Downloads\assignment4\assignment4\bin\Debug\assignment4.pdb
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.Form1.resources
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.Properties.Resources.resources
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.exe
+C:\Users\HP\Downloads\assignment4\assignment4\obj\Debug\assignment4.pdb
