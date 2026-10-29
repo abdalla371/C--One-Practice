@@ -1,0 +1,10 @@
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\bin\Debug\classPractice.exe.config
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\bin\Debug\classPractice.exe
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\bin\Debug\classPractice.pdb
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.Form1.resources
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.exe
+C:\Users\HP\OneDrive\Desktop\classPractice\classPractice\obj\Debug\classPractice.pdb
