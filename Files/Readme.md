@@ -181,4 +181,3 @@ private void button7_Click(object sender, EventArgs e)
 
 ***
 
-Waxaad faylkan u isticmaali kartaa `README.md` ahaan gudaha mashruucaaga GitHub ama meel kasta oo aad ku xaqiijinayso sharraxaadda koodhkaaga!
