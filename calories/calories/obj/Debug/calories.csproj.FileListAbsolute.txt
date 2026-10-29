@@ -1,0 +1,10 @@
+C:\Users\HP\Downloads\calories\calories\bin\Debug\calories.exe.config
+C:\Users\HP\Downloads\calories\calories\bin\Debug\calories.exe
+C:\Users\HP\Downloads\calories\calories\bin\Debug\calories.pdb
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.Form1.resources
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.Properties.Resources.resources
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.exe
+C:\Users\HP\Downloads\calories\calories\obj\Debug\calories.pdb
