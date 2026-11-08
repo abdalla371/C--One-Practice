@@ -1,0 +1,17 @@
+C:\Users\HP\Downloads\Assignment10\Assignment10\bin\Debug\net10.0-windows\Assignment10.exe
+C:\Users\HP\Downloads\Assignment10\Assignment10\bin\Debug\net10.0-windows\Assignment10.deps.json
+C:\Users\HP\Downloads\Assignment10\Assignment10\bin\Debug\net10.0-windows\Assignment10.runtimeconfig.json
+C:\Users\HP\Downloads\Assignment10\Assignment10\bin\Debug\net10.0-windows\Assignment10.dll
+C:\Users\HP\Downloads\Assignment10\Assignment10\bin\Debug\net10.0-windows\Assignment10.pdb
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.Form1.resources
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.AssemblyInfo.cs
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.dll
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\refint\Assignment10.dll
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.pdb
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignment10.genruntimeconfig.cache
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\ref\Assignment10.dll
+C:\Users\HP\Downloads\Assignment10\Assignment10\obj\Debug\net10.0-windows\Assignme.4221AF72.Up2Date
