@@ -1,109 +1,244 @@
-# Chapter 3: Making Decisions (C#)
-## if-else (Slide 7)
-## Slide 7 flowchart img_flowchart_if_else.
-- Tests temp > 40
-- True: display "hot". False: display "cold"
+📘 Chapter 3: Making Decisions (Go'aan Qaadashada ee Visual C#)
 
-## Slide 7 code img_code_if_else.
-- Temp is 90, so the first block runs
-- The else block runs only when the condition is false
-- Note: the slide shows "hot" in both blocks. The else should show "cold"
+Kani waa sharraxaad dhammaystiran oo ku saabsan cutubka Making Decisions (Go'aan Qaadashada) ee luqadda Visual C# (buugga Starting Out with Visual C# ee Tony Gaddis). Cutubkan waxaan ku baranaynaa sida barnaamijku u qaato go'aanno ku salaysan shuruudo (conditions) kala duwan.
 
-## Test Score Average (Slides 8 and 9)
-## Slide 8 form img_form_test_score_average.
-- Three TextBoxes for the scores (80, 90, 75)
-- A Label shows the Average (81.7)
-- Buttons: Calculate Average, Clear, Exit
+📋 Mowduucyada Cutubka (Topics)
 
-## Slide 9 code img_code_try_catch_average.
+4.1 Decision Structures & the if Statement
 
-- The code of the Calculate Average button
-- `try` runs the code. `catch` shows an error message if something fails
-- `const` makes a value that cannot change (HIGH_SCORE is 95)
-- `double.Parse` changes text to a number
-- Average = (test1 + test2 + test3) / 3.0
-- `ToString("n1")` shows 1 decimal. The slide comment says 2 decimals, but n1 means 1
-- If the average is more than 95, a congratulations message shows
+4.2 The if-else Statement
 
-## Payroll with Overtime (Slide 10)
-🟠Slide 10 form img_form_payroll_overtime.
-- Shows the form and the name of each control
-- hoursWorkedTextBox, hourlyPayRateTextBox, grossPayLabel
-- calculateButton, clearButton, exitButton
-- Good names make the code easy to read
+4.3 Nested Decision Structures & if-else-if
 
-## Loan Qualify (Slides 11 and 12)
-## Slide 11 form img_form_loan_qualify.
-- The user types the Annual Salary and the Years at current job
-- Button Check Qualification shows the answer in Loan Decision
-- Its code is on Slide 12
+4.4 Logical Operators (Hawl-wadeennada Macquulka ah)
 
- ## Slide 12 flowchart img_flowchart_nested_if.
-- Step 1: is salary >= 40000? If false: "Minimum salary requirement not met."
-- Step 2: if true, is yearsOnJob >= 2?
-- False: "Minimum years at current job not met." True: "You qualify for the loan."
+4.5 bool Variables and Flags
 
-## Slide 12 code img_code_nested_if.
-- Nested means one if inside another if
-- The outer if checks the salary. The inner if checks the years
-- salary is 400, so the else runs: "Minimum salary requirement not met."
-- To qualify, both conditions must be true
-- Note: the slide has a typo: "load" should be "loan"
+4.6 Comparing Strings (Isbarbardhigga Qoraallada)
 
-## if-else-if (Slide 13)
-## Slide 13 code img_code_if_else_if.
-- Gives a grade from A to F
-- The conditions are tested from top to bottom. The first true one runs
-- Example: score 85 gives B. Score below 60 gives F
-- `int.Parse` gives an error if the text is not a number
+4.7 Preventing Data Conversion Exceptions (TryParse)
 
-## Logical Operators (Slide 15)
-## Slide 15 table img_table_and.
-- AND (&&) is true only when both sides are true
+4.8 Input Validation (Hubinta Xogta la Geliyo)
 
-## Slide 15 table img_table_or.
-- OR is true when one side or both sides are true
-- It is false only when both sides are false
+4.9 Radio Buttons and Check Boxes
 
-## Slide 15 table img_table_not.
-- NOT (!) reverses the value: true becomes false, false becomes true
+4.10 The switch Statement
 
-## Range Checker (Slide 16)
-## Slide 16 form img_form_range_checker.
-- The user types an integer
-- The program checks if it is from 1 to 10 (use && to join two tests)
-- The answer shows in Range Decision
-- The slide does not show the code
+4.11 Introduction to List Boxes (ListBox)
 
-## bool Flag (Slide 18)
-## Slide 18 code img_code_bool_flag.
-- A flag is a bool variable. It is true or false
-- If points are more than 5000, isGrandMaster is true. If not, false
-- `ToString()` changes the bool to text for the label
+4.1 Decision Structures & the if Statement
 
-## Comparing Strings (Slide 19)
-## Slide 19 code img_code_compareto.
-- `CompareTo` compares two strings
-- It returns 0 when they are equal
-- If equal, the code inside the braces runs
+Control Structure: Waa qaab-dhismeed maamula sida iyo sida ay u kala horreeyaan fulinta koodhka (statements).
 
-## ListBox (Slides 28 and 32)
-## Slide 28 code img_code_listbox_text.
-- `Text` gets the selected item as text
-- The text shows in a message box
-- If nothing is selected, Text is empty
+Sequence Structure: Waa koodh u shaqeeya si toos ah (sida ay u kala sarreeyaan).
 
-## Slide 28 code img_code_listbox_count.
-- `Items.Count` gives the number of items in the ListBox
-- The number shows in a message box
+Decision Structure: Waa qaab-dhismeed fuliya koodh gaar ah kaliya marka ay jirto shuruud gaar ah oo run (true) noqota.
 
-## Slide 32 code img_code_listbox_removeat.
-- `SelectedIndex` is the position of the selected item. It starts at 0
-- If nothing is selected, it is -1
-- Item selected: `RemoveAt` removes it
-- Nothing selected: a message asks the user to select an item
-- This check stops an error
+Qaabka Guud ee if Statement:
 
-## slide 4 and slide 22
-- Slides 4 and 6: flowcharts (cold outside, wear a coat; sales over 50000, bonus 500)
-- Slide 22: Radio Button and Check Box examples
+if (expression)
+{
+    // Koodhkan wuxuu shaqaynayaa haddii expression-ku noqdo true
+}
+
+
+Relational Operators (Hawl-wadeennada Isbarbardhigga)
+
+Waxaa loo isticmaalaa in lagu hubiyo xiriirka ka dhexeeya laba qiime:
+
+Operator
+
+Macnaha
+
+Tusaale
+
+>
+
+Ka weyn (Greater than)
+
+x > y
+
+<
+
+Ka yar (Less than)
+
+x < y
+
+>=
+
+Ka weyn ama la mid ah
+
+x >= y
+
+<=
+
+Ka yar ama la mid ah
+
+x <= y
+
+==
+
+La mid ah (Equal to)
+
+x == y
+
+!=
+
+Aan la mid ahayn (Not equal to)
+
+x != y
+
+4.2 The if-else Statement
+
+if-else wuxuu fuliyaa hal qayb oo koodh ah haddii shuruuddu run (true) noqoto, qaybta kalena (else) wuxuu fuliyaa haddii shuruuddu been (false) noqoto.
+
+Tusaale Koodh ah (if-else):
+
+🧪 Practice Lab: Test Score Average (try-catch & if)
+
+Tusaalahan wuxuu xisaabinayaa celceliska (average) saddex imtixaan, wuxuuna isticmaalayaa try-catch si looga hortago qaladaadka, iyo if si loogu hambalyeeyo ardayga keena dhibco ka sarreeya 95.0.
+
+4.3 Nested Decision Structures & if-else-if
+
+Nested Decision Structures (Go'aanno Is-dhex-jira)
+
+Waa marka hal if statement lagu dhex qoro if kale gudihiisa si loo tijaabiyo in ka badan hal shuruud (tusaale: hubinta mushaharka iyo sannadaha shaqada si qofka loogu oggolaado deyn/loan).
+
+The if-else-if Statement
+
+Waxaa la isticmaalaa marka la rabo in la qiimeeyo shuruudo badan oo isku xiga si loo gaaro go'aanka ugu dambeeya (sida soo saarista darajada imtixaanka: A, B, C, D, F).
+
+4.4 Logical Operators
+
+Waxay isku xiraan laba shuruudood (Boolean expressions) ama ka badan si ay u sameeyaan hal shuruud oo weyn:
+
+Operator
+
+Magaca
+
+Sharraxaad
+
+&&
+
+AND
+
+Labada shuruudoodba waa inay true noqdaan si natiijadu true u noqoto.
+
+||
+
+OR
+
+Ugu yaraan hal shuruud ayaa true noqonaysa si natiijadu true u noqoto.
+
+!
+
+NOT
+
+Wuxuu rogaa qiimaha (true wuxuu ka dhigaa false, false-na true).
+
+// Tusaale AND (&&)
+if (temperature < 20 && minutes > 12)
+{
+    MessageBox.Show("The temperature is in the danger zone.");
+}
+
+// Tusaale OR (||)
+if (temperature < 20 || temperature > 100)
+{
+    MessageBox.Show("The temperature is in the danger zone.");
+}
+
+
+4.5 bool Variables and Flags
+
+Doorsoomaha noociisu yahay bool wuxuu kaydiyaa kaliya true ama false.
+
+Flag: Waa doorsoome bool ah oo calaamad u ah in xaalad gaar ah ay ka jirto barnaamijka dhexdiisa.
+
+4.6 Comparing Strings
+
+Qoraallada (string) waxaa lagu isbarbardhigi karaa ==, !=, ama hababka (methods) sida String.Compare iyo .CompareTo(). Haddii natiijada CompareTo ay la mid tahay 0, labada qoraal way isku mid yihiin.
+
+4.7 Preventing Data Conversion Exceptions (TryParse)
+
+Si looga hortago in barnaamijku istaago (crash/exception) haddii isticmaaluhu geliyo xog khaldan (sida xarfo meel tiro laga rabay), waxaa la isticmaalaa hababka TryParse:
+
+int.TryParse(input, out targetVariable)
+
+double.TryParse(input, out targetVariable)
+
+decimal.TryParse(input, out targetVariable)
+
+int hours;
+if (int.TryParse(textBox1.Text, out hours))
+{
+    // Xogtu waa sax waana la beddelay!
+}
+
+
+4.8 Input Validation
+
+Input Validation waa hubinta in xogta la geliyay ay tahay mid macquul ah oo u dhaxaysa xadka la oggol yahay ka hor intaan la isticmaalin.
+
+// Hubinta in dhibcaha imtixaanku u dhexeeyaan 0 ilaa 100
+if (testScore >= 0 && testScore <= 100)
+{
+    // Waa xog sax ah
+}
+
+
+4.9 Radio Buttons and Check Boxes
+
+RadioButton: Wuxuu u oggolaadaa isticmaalaha inuu doorto hal shay oo kaliya (mutually exclusive) dhowr ikhtiyaar dhexdooda.
+
+CheckBox: Wuxuu u oggolaadaa isticmaalaha inuu doorto hal shay ama wax ka badan isku mar.
+
+Property-ga .Checked: Wuxuu soo celiyaa true haddii la doortay, ama false haddii aan la dooran.
+
+Event-ga CheckedChanged: Wuxuu shaqeeyaa mar kasta oo isbeddel ku yimaado doorashada RadioButton ama CheckBox.
+
+4.10 The switch Statement
+
+switch wuxuu qiimeeyaa qiimaha hal doorsoome (variable), wuxuuna u jiheeyaa barnaamijka qaybta (case) ku habboon qiimahaas. Wuxuu beddel u noqon karaa if-else-if dhaadheer.
+
+switch (testExpression)
+{
+    case value_1:
+        // statements
+        break;
+    case value_2:
+        // statements
+        break;
+    default:
+        // statements
+        break;
+}
+
+
+4.11 Introduction to List Boxes
+
+ListBox wuxuu soo bandhigaa liis walxo ah (items) oo isticmaaluhu ka dooran karo.
+
+Properties-ka Muhiimka ah:
+
+Text: Waxay soo celisaa qoraalka shayga markaas la doortay.
+
+Items.Count: Waxay soo celisaa tirada guud ee walxaha ku jira ListBox-ka.
+
+SelectedItem: Waxay haysaa shayga (object) la doortay.
+
+SelectedIndex: Waxay haysaa lambarka booska (index-ka ka bilowda 0) ee shayga la doortay. Haddii aan waxba la dooran, qiimaheedu waa -1.
+
+1. Soo saarista qoraalka la doortay (listBox1.Text):
+
+2. Tirinta walxaha ku jira ListBox (listBox1.Items.Count):
+
+Ku darista iyo Ka saarista Walxaha (Adding & Removing Items):
+
+Ku darista (Items.Add): daysListBox.Items.Add("Monday");
+
+Ka saarista magac ahaan (Items.Remove): daysListBox.Items.Remove("Tuesday");
+
+Ka saarista boos ahaan (Items.RemoveAt): Waxay tirtirtaa shayga ku jira index gaar ah (iyadoo marka hore la hubinayo in SelectedIndex != -1).
+
+Nadiifinta dhammaan (Items.Clear): daysListBox.Items.Clear();
